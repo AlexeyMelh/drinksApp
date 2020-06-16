@@ -228,9 +228,9 @@ export default function DrinksScreen({navigation}) {
   global.setShot = setShot;
   global.showShot = showShot;
 
-  const [showMiltEtc, showMiltEtc] = useState(false);
+  const [showMiltEtc, setMiltEtc] = useState(false);
   global.setMiltEtc = setMiltEtc;
-  global.showMiltEtc = showSMiltEtc;
+  global.showMiltEtc = showMiltEtc;
   
   navigation.setOptions({ headerTitle: "D R I N K S" });
   navigation.setOptions({ headerStyle:{ borderBottomWidth:4} });
